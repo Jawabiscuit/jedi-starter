@@ -189,3 +189,5 @@ May be necessary for some GUI environments (e.g., Mac OS X)")
     (add-hook 'python-mode-hook 'jedi-config:setup-keys)
 
     ))
+
+(provide 'jedi-starter)
